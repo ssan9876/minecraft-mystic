@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": "minecraft:red_wool",
+    "G": "minecraft:gold_ingot",
+    "P": "minecraft:phantom_membrane",
+    "F": "minecraft:feather"
+  },
+  "pattern": [
+    "WGW",
+    "WPW",
+    "FWF"
+  ],
+  "result": {
+    "id": "mystic:cloak_of_levitation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "mystic",
+	"version": "${version}",
+	"name": "Mystic Arts",
+	"description": "Sorcerer's relics: a Sling Ring that opens portals anywhere, the Cloak of Levitation, the Eye of Agamotto that turns back time, and mandala shields.",
+	"authors": ["ssan9876"],
+	"icon": "assets/mystic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["xyz.ssander.mystic.Mystic"],
+		"client": ["xyz.ssander.mystic.client.MysticClient"]
+	},
+	"mixins": [
+		"mystic.mixins.json",
+		{
+			"config": "mystic.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

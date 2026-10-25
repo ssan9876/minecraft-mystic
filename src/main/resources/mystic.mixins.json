@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "xyz.ssander.mystic.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"BlockMixin",
+		"ContainersMixin",
+		"LevelMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

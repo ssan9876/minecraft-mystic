@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:ender_eye",
+    "B": "minecraft:blaze_powder"
+  },
+  "pattern": [
+    "BGB",
+    "G G",
+    "GEG"
+  ],
+  "result": {
+    "id": "mystic:sling_ring"
+  }
+}

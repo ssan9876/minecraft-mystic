@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "S": "minecraft:string",
+    "C": "minecraft:clock",
+    "E": "minecraft:emerald_block",
+    "N": "minecraft:nether_star"
+  },
+  "pattern": [
+    "GSG",
+    "CEC",
+    "GNG"
+  ],
+  "result": {
+    "id": "mystic:eye_of_agamotto"
+  }
+}

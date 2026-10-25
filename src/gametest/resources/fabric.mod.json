@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "mystic-gametest",
+	"version": "1.0.0",
+	"name": "Mystic Arts gametests",
+	"environment": "*",
+	"mixins": ["mystic-gametest.mixins.json"],
+	"entrypoints": {
+		"fabric-client-gametest": ["xyz.ssander.mystic.gametest.MysticClientGameTest"]
+	},
+	"depends": {
+		"mystic": "*"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "item.mystic.sling_ring": "Sling Ring",
+  "item.mystic.sling_ring.unattuned": "Sneak and use to attune it to where you stand",
+  "item.mystic.sling_ring.attuned": "Opens a portal to %s, %s, %s",
+  "item.mystic.cloak_of_levitation": "Cloak of Levitation",
+  "item.mystic.eye_of_agamotto": "Eye of Agamotto",
+  "entity.mystic.sling_portal": "Sling Ring Portal",
+  "key.category.mystic.mystic": "Mystic Arts",
+  "key.mystic.shield": "Conjure Shield",
+  "message.mystic.attuned": "Sling Ring attuned to %s, %s, %s",
+  "message.mystic.not_attuned": "Sneak and use the Sling Ring to attune it first",
+  "message.mystic.destination_gone": "The Sling Ring's destination no longer exists",
+  "message.mystic.shield_no_cloak": "Wear the Cloak of Levitation to conjure shields",
+  "message.mystic.rewinding": "Turning back time: %ss"
+}
